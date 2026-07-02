@@ -1,3 +1,5 @@
+// CHECK WHETHER A NUMBER IS EVEN OR ODD
+
 public class EvenOrOddNo {
     public static void main(String[] args) {
         int n = 156;
