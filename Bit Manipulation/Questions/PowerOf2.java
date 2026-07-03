@@ -5,6 +5,6 @@ public class PowerOf2 {
     }
 
     public static boolean Power(int n){
-        return (n &(n-1)) == 0; // checks the number and one smaller number to it and AND between them will give 0
+        return  (n>0) && (n &(n-1)) == 0; // checks the number and one smaller number to it and AND between them will give 0
     }
 }
