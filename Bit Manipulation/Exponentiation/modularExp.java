@@ -1,10 +1,10 @@
 // Explain the concept of fast exponention to calculation a^b in log n time 
 public class exp {
     public static void main(String[] args) {
-        System.out.println(fastExp(3, 5));
+        System.out.println(fastExp(2, 6,10));
     }
 
-    public static int fastExp(int a,int n){
+    public static int fastExp(int a,int n,int m){
         int ans = 1;
         while(n>0){
             if((n&1) == 1){
@@ -13,6 +13,7 @@ public class exp {
             a = a*a;
             n = n>>1;
         }
-        return ans ;
+        return ans%m ;
     }
 }
+
