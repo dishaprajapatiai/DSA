@@ -1,4 +1,4 @@
-
+// Count the number of 1 in a binary number
 
 public class CountSetBit {
     public static void main(String[] args) {
