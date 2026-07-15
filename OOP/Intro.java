@@ -1,12 +1,16 @@
 public class Intro {
     public static void main(String[] args) {
-        Pen p = new Pen();   //a object is created  name as Pen
+        Pen p = new Pen();   //A object is created  named as Pen
         p.setColor("Red"); 
         System.out.println(p.color);
         p.setTip(5);
         System.out.println(p.tip);
+
+
+        // To ca;cu;ate the percentage
         Student s = new Student();
         s.calPer(34,89,90);
+        System.out.println(s.percentage);
     }
 }
 
